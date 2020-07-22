@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "osanniko/my-cicd-app"
+    registry = "chrivand/my-cicd-app"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
