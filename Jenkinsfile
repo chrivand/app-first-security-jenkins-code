@@ -2,7 +2,7 @@ pipeline {
   environment {
     registry = "chrivand/my-cicd-app"
     registryCredential = 'dockerhub'
-    dockerImage = ''
+    dockerImage = 'Dockerfile'
   }
   agent { 
     docker { 
